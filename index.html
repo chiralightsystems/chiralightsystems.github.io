@@ -13,7 +13,7 @@
         }
 
         #root {
-            height: 100vh;
+            height: 100dvh;
             background-color: var(--light);
             display: flex;
             justify-content: center;
@@ -31,11 +31,11 @@
         }
 
         #title-text {
-            font-size: 32px;
+            font-size: clamp(32px, 6.5dvw, 48px);
         }
 
         #contact {
-            font-size: 14px;
+            font-size: clamp(14px, 3dvw, 20px);
             display: flex;
             flex-direction: column;
             align-items: center;
